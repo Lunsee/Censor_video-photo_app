@@ -1,6 +1,6 @@
 by Lunsee  <3
 
-### Steps to Set Up the Project
+# Steps to Set Up the Project
 
 ## 1. Clone the Repository
 
@@ -14,18 +14,18 @@ cd <repository_name>
 
 It is recommended to use a virtual environment to manage dependencies.
 
-# On Windows:
+### On Windows:
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-# On Linux/Mac:
+### On Linux/Mac:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
-##3 . Install Dependencies
+## 3 . Install Dependencies
 
 Install the required dependencies from requirements.txt:
 ```bash
