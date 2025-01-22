@@ -1,8 +1,8 @@
 by Lunsee  <3
 
-###Steps to Set Up the Project
+### Steps to Set Up the Project
 
-##1. Clone the Repository
+## 1. Clone the Repository
 
 To get a local copy of the project, run:
 ```bash
@@ -10,28 +10,28 @@ git clone <repository_url>
 cd <repository_name>
 ```
 
-##2. Create a Virtual Environment
+## 2. Create a Virtual Environment
 
 It is recommended to use a virtual environment to manage dependencies.
 
-#On Windows:
+# On Windows:
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-#On Linux/Mac:
+# On Linux/Mac:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
-##3. Install Dependencies
+##3 . Install Dependencies
 
 Install the required dependencies from requirements.txt:
 ```bash
 pip install -r requirements.txt
 ```
-##4. Run the Project
+## 4. Run the Project
 
 Start the project using the main script:
 ```bash
