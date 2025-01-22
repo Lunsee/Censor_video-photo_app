@@ -58,36 +58,11 @@ Replace <main_script>.py with the actual name of the script you want to run.
 ```python
 # FFmpeg
 ffmpeg_command = (
-    f'{BASE_DIR}/apps/bin/ffmpeg.exe '  # Убедитесь, что путь к ffmpeg.exe правильный
+    f'{BASE_DIR}/apps/bin/ffmpeg.exe '  #  ffmpeg.exe PATH !!!!
     f'-i "{processed_video_path}" -i "{audio_path}" '
     f'-c:v libx264 -preset slow -crf 18 -c:a aac -b:a 192k -movflags +faststart "{temp_output_path}"'
 )
-
-
-
-
-
-
-
-
-
-
-1. **Скачайте FFmpeg**  
-   Для начала скачайте исполняемый файл FFmpeg для вашей операционной системы с [официального сайта FFmpeg](https://ffmpeg.org/download.html). Выберите подходящую версию (например, для Windows скачайте файл `.exe`).
-
-2. **Установите FFmpeg**  
-   После скачивания распакуйте архив и установите FFmpeg в удобное место на вашем компьютере.
-
-3. **Укажите путь в программе**  
-   В программе вам нужно указать путь к исполняемому файлу `ffmpeg.exe`. Используйте следующий код для конфигурации пути:
-
-```python
-# FFmpeg
-ffmpeg_command = (
-    f'{BASE_DIR}/apps/bin/ffmpeg.exe '  # Убедитесь, что путь к ffmpeg.exe правильный
-    f'-i "{processed_video_path}" -i "{audio_path}" '
-    f'-c:v libx264 -preset slow -crf 18 -c:a aac -b:a 192k -movflags +faststart "{temp_output_path}"'
-)
+```
 
 
 
