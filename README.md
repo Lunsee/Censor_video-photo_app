@@ -1,5 +1,33 @@
 by Lunsee  <3
 
+# Description 
+This program is a censorship tool that processes images and videos to censor explicit content.
+It uses the nudenet model for detecting exposed intimate body parts and applies various censorship methods, including black rectangles, pixelation, and blurring.
+
+The program uses the NudeDetector artificial intelligence model from the nudenet library to detect intimate areas in images and videos. The model analyzes the images, determining whether there are naked areas of the body on them, such as women's breasts, genitals, and buttocks (You can provide metrics for censorship yourself).
+
+Metrics:
+```python
+    "FEMALE_GENITALIA_COVERED",
+    "FACE_FEMALE",
+    "BUTTOCKS_EXPOSED",
+    "FEMALE_BREAST_EXPOSED",
+    "FEMALE_GENITALIA_EXPOSED",
+    "MALE_BREAST_EXPOSED",
+    "ANUS_EXPOSED",
+    "FEET_EXPOSED",
+    "BELLY_COVERED",
+    "FEET_COVERED",
+    "ARMPITS_COVERED",
+    "ARMPITS_EXPOSED",
+    "FACE_MALE",
+    "BELLY_EXPOSED",
+    "MALE_GENITALIA_EXPOSED",
+    "ANUS_COVERED",
+    "FEMALE_BREAST_COVERED",
+    "BUTTOCKS_COVERED",
+```
+
 # Steps to Set Up the Project
 
 ## 1. Clone the Repository
