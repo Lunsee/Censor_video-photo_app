@@ -6,7 +6,8 @@ It uses the nudenet model for detecting exposed intimate body parts and applies 
 
 The program uses the NudeDetector artificial intelligence model from the nudenet library to detect intimate areas in images and videos. The model analyzes the images, determining whether there are naked areas of the body on them, such as women's breasts, genitals, and buttocks (You can provide metrics for censorship yourself).
 
-**Therefore, in order for the program to work correctly, you will need to download the ml model from the repository in advance. ``` https://github.com/notAI-tech/NudeNet``` **
+**Therefore, in order for the program to work correctly, you will need to download the ml model from the repository in advance.
+```https://github.com/notAI-tech/NudeNet``` **
 
 Metrics:
 ```python
